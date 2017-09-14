@@ -6,10 +6,15 @@
 npm run build
 npm run dev
 
-
-1.根目录下执行命令
-npm run dev
-2.浏览器直接访问:
-http://localhost:8181/index.html
+操作步骤：
+1.下载依赖包：
+  npm i 
+2.如果缺少babel-core则安装
+  npm install babel-core
+3.依赖包安装完成则会产生node_modules文件夹
+4.根目录下启动项目
+  npm run dev
+5.浏览器直接访问：
+  http://localhost:8181/index.html
 
 
